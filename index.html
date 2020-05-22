@@ -52,36 +52,14 @@
             <div class="row">
                 <div class="col s12 m12">
                     <h5 class="center">Mensalidade</h5>
-                    <p class="light center">Conforme aprovado em reunião, a mensalidade do Colégio foi estipulado em 1% do salário mínimo vigente para o sênior que possui a regularização vitalícia junto a ADAB, e 0,5% para quem paga anualmente.</p>
+                    <p class="light center">Conforme aprovado em reunião, a mensalidade do Colégio foi estipulado em 1% do salário mínimo vigente para o sênior que possui a regularização vitalícia junto a ADAB.</p>
                     <p class="light center">A cobrança recorrente é feita a cada 30 dias da primeira efetivação no seu cartão de crédito, podendo ser cancelada quando solicitado ao tesoureiro. Lembre-se, a captação da mensalidade é <b>FUNDAMENTAL</b> para execução das nossas atividades, confraternizações, projetos, filantrópias, auxilio em caso de necessidade, sendo todas elas amplamente discutidas antes em nosso grupo, tudo sempre ao bem de seus membros e pela causa da Ordem Demolay.</p>
-                    <br>
-                </div>
-
-                <div class="col s12 m6">
-                    <div class="icon-block center" id="label2">
-                        <h2 class="center red-text"><i class="material-icons">star_half</i></h2>
-                        <h5 class="center">Sou Sênior de regularização anual</h5>
-                        <p class="light">Corresponde a 0,5% do salário mínimo vigente</p>
-                        <h6>
-                            <b>R$5,22/mês</b>
-                        </h6>
-                        <center>
-                            <!-- INICIO BOTAO PAYPAL -->
-                            <form action="https://www.paypal.com/br/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="857V6HK7ZE3K6">
-                            <input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
-                            </form>
-                            <!-- FINAL BOTAO PAYPAL -->
-                        </center>
-                    </div>
                     <br>
                 </div>
                 <div class="col s12 m6">
                     <div class="icon-block center" id="label3">
                         <h2 class="center red-text"><i class="material-icons">star</i></h2>
-                        <h5 class="center">Sou Sênior com regularização vitalícia</h5>
+                        <h5 class="center">Sou Sênior regular</h5>
                         <p class="light">Corresponde a 1% do salário mínimo vigente</p>
                         <h6>
                             <b>R$10,45/mês</b>
@@ -103,14 +81,19 @@
                     <div class="icon-block center" id="label3">
                         <h2 class="center red-text"><i class="material-icons">account_balance</i></h2>
                         <h5 class="center">Transferência Bancária</h5>
-                        <h6><b>Apenas para pagamento semestral.</b></h6>
+                        <h6><b></b></h6>
+                        <p class="light">Somente semestral/anual 4,30% de desconto</p>
                         <table border="0">
                         <tbody>
                         <tr>
-                        <td><strong>336 - Banco C6 S.A.</strong><br /> <strong>Ag&ecirc;ncia:</strong> 0001<br /> <strong>Conta corrente:</strong> 58950-0<br /> <strong>CPF:</strong> 075.642.004-05</td>
+                            <td><strong>Banco:</strong> C6 S.A. - 336<br /> <strong>Ag&ecirc;ncia:</strong> 0001<br /> <strong>Conta corrente:</strong> 58950-0<br /> <strong>CPF:</strong> 075.642.004-05</td>
                         <td>
-                        <p><strong>S&ecirc;nior reg. comum:</strong> R$31,32</p>
-                        <p><strong>S&ecirc;nior reg. vital&iacute;cia:</strong> R$62,70</p>
+                        <!-- O segundo valor estará selecionado inicialmente -->
+                        <select name="select">
+                          <option value="valor1" selected>Selecione o Período</option>
+                          <option value="valor2">R$60,00 - Semestral</option>
+                          <option value="valor3">R$120,00 - Anual</option>
+                        </select>
                         </td>
                         </tr>
                         </tbody>
