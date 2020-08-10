@@ -67,7 +67,7 @@
                         <center>
                             <!-- INICIO BOTAO PAYPAL -->
                            <div id="paypal-button-container"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=AYQ36hwFtoV-06-AdWQsaQWpLnxHWnWP5AoHKWZe8xNSPI0hTNzqkYNG5vNr3XNyPMZG1H1xvUxxaO9J&vault=true" data-sdk-integration-source="button-factory"></script>
+                            <script src="https://www.paypal.com/sdk/js?client-id=AYQ36hwFtoV-06-AdWQsaQWpLnxHWnWP5AoHKWZe8xNSPI0hTNzqkYNG5vNr3XNyPMZG1H1xvUxxaO9J&vault=true" data-sdk-integration-source="button-factory"></script>
                             <!-- FIM BOTAO PAYPAL -->
                         </center>
                     </div>
@@ -76,23 +76,53 @@
                 <div class="col s12 m6">
                     <div class="icon-block center" id="label3">
                         <h2 class="center red-text"><i class="material-icons">account_balance</i></h2>
-                        <h5 class="center">Transferência Bancária</h5>
-                        <p class="light">Somente semestral/anual por falta da praticidade operacional.</p>
-                        <table border="0">
-                        <tbody>
-                        <tr>
-                            <td><strong>Banco:</strong> PagSeguro Internet S.A. - 290<br /> <strong>Ag&ecirc;ncia:</strong> 0001<br /> <strong>Conta de pagamento:</strong> 02194251-1<br /> <strong>CPF:</strong> 075.642.004-05<br />Ytalo_Nascimento_Simoa</td>
-                        <td>
-                        <!-- O segundo valor estará selecionado inicialmente -->
+                        <h5 class="center">Transferência Bancária/TED</h5>
+                        <p class="light">Somente semestral/anual pela praticidade operacional.</p>
                         <select name="select">
-                          <option value="valor1" selected>Selecione o Período</option>
-                          <option value="valor2">R$62,70 - Semestral</option>
-                          <option value="valor3">R$125,40 - Anual</option>
+                          <option value="value1" selected>Selecione o Período</option>
+                          <option value="value2">R$62,70 - Semestral</option>
+                          <option value="value3">R$125,40 - Anual</option>
                         </select>
-                        </td>
-                        </tr>
-                        </tbody>
-                        </table>
+                        <ul class="collapsible">
+                            <li>
+                              <div class="collapsible-header"><img src="media/pagbank.webp" width="30px">&nbsp PagSeguro/PagBank &nbsp<b>(Preferencialmente)</b></div>
+                              <div class="collapsible-body"><span>
+                                                                <p class="light"  align="left">
+                                                                    <b>Banco:</b> PagSeguro Internet S.A. - 290<br>
+                                                                    <b>Agência:</b> 0001<br>
+                                                                    <b>Conta de pagamento:</b> 02194251-1<br>
+                                                                    <b>CPF:</b> 075.642.004-05<br>
+                                                                    Ytalo Nascimento Simoa
+                                                                </p>
+                                                            </span>
+                                </div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><img src="media/caixa.png" width="30px">&nbsp Caixa</div>
+                              <div class="collapsible-body"><span>
+                                                                <p class="light"  align="left">
+                                                                    <b>Banco:</b> Caixa Econômica Federal - 104<br>
+                                                                    <b>Agência:</b> 2991<br>
+                                                                    <b>Conta Poupança:</b> 388-0<br>
+                                                                    <b>Tipo/OP:</b> 013<br>
+                                                                    Ytalo Nascimento Simoa
+                                                                </p>
+                                                            </span>
+                                </div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><img src="media/bbrasil.PNG" width="30px">&nbsp Banco do Brasil</div>
+                              <div class="collapsible-body"><span>
+                                                                <p class="light"  align="left">
+                                                                    <b>Banco:</b> Banco do Brasil S.A. - 001<br>
+                                                                    <b>Agência:</b> 963-6<br>
+                                                                    <b>Conta Corrente:</b> 94153-0<br>
+                                                                    Ytalo Nascimento Simoa
+                                                                </p>
+                                                            </span>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                     <br>
                 </div>

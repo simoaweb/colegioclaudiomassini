@@ -24,3 +24,6 @@ paypal.Buttons({
         alert(data.subscriptionID);
       }
   }).render('#paypal-button-container');
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
