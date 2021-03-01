@@ -75,6 +75,13 @@ section.massini {
     justify-content: space-between;
     background: #f6f6f6;
 }
+section.mensalidade {
+    position: relative;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
 
 section {
     padding: 50px 0;
@@ -166,6 +173,43 @@ section {
     border-top-left-radius: 300px;
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 10px;
+}
+
+.content-mensalidade {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-mensalidade .textBox-mensalidade {
+    position: relative;
+    max-width: 100%;
+    margin: 20px;
+}
+
+.content-mensalidade .textBox-mensalidade h2 {
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content-mensalidade .textBox-mensalidade p {
+    color: #333;
+}
+
+.content-mensalidade .textBox-mensalidade a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #dd7f1e;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: double;
 }
 
 .heading {
