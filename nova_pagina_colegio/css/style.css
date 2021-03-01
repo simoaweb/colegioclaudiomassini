@@ -73,7 +73,7 @@ section.massini {
     padding: 50px;
     display: flex;
     justify-content: space-between;
-    background-image: url("../img/background3.png");
+    background: #f6f6f6;
 }
 
 section {
@@ -132,22 +132,22 @@ section {
 }
 
 .content-massini .textBox-massini h2 {
-    color: #fff;
+    color: #333;
     font-size: 4em;
     line-height: 1.4em;
     font-weight: 500;
 }
 
 .content-massini .textBox-massini p {
-    color: #fff;
+    color: #333;
 }
 
 .content-massini .textBox-massini a {
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
-    background: #fff;
-    color: #333;
+    background: #dd7f1e;
+    color: #fff;
     border-radius: 40px;
     font-weight: 500;
     letter-spacing: 1px;
