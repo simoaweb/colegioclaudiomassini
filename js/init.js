@@ -7,23 +7,23 @@
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
-paypal.Buttons({
+  paypal.Buttons({
       style: {
           shape: 'rect',
           color: 'gold',
           layout: 'vertical',
-          label: 'subscribe',
-          
+          label: 'paypal'
       },
       createSubscription: function(data, actions) {
         return actions.subscription.create({
-          'plan_id': 'P-0T2408869C774372AL4XMT7Y'
+          /* Creates the subscription */
+          plan_id: 'P-0T2408869C774372AL4XMT7Y'
         });
       },
       onApprove: function(data, actions) {
-        alert(data.subscriptionID);
+        alertalert('Mensalidade recebida com sucesso ' + data.subscriptionID); // You can add optional success message for the subscriber here
       }
-  }).render('#paypal-button-container');
+  }).render('#paypal-button-container-P-0T2408869C774372AL4XMT7Y'); // Renders the PayPal button
   $(document).ready(function(){
     $('.collapsible').collapsible();
   });
